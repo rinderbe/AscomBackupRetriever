@@ -112,26 +112,26 @@ Now you're ready to kick off the actual backup.
 Successful log entry for a device with firmware 11.4 -> 11.7.
 
 ~~~log
- 2022-08-04 21:41:08: Success: Device 10.10.1.116 is active with 0 ms in Latency
- 2022-08-04 21:41:12: Success: Backup downloaded successfully for 10.10.1.116
- 2022-08-04 21:41:12: Success: Backup for 10.10.1.116 was moved to D:\RIND\AscomBackupRetriever\Backups\2022-08-04\SINV
+ 2022-08-04 21:41:08: Success: Device 10.1.1.1 is active with 0 ms in Latency
+ 2022-08-04 21:41:12: Success: Backup downloaded successfully for 10.1.1.1
+ 2022-08-04 21:41:12: Success: Backup for 10.1.1.1 was moved to X:\AscomBackupRetriever\Backups\2022-08-04\CUSTOMER_A
 ~~~
 
 Successful log entry for an older device where BasicAuth is used.
 
 ~~~log
- 2022-08-04 21:41:22: Success: Device 10.132.1.21 is active with 0 ms in Latency
- 2022-08-04 21:41:23: Error: Incompatibility issues, couldn't login on device 10.132.1.21
- 2022-08-04 21:41:24: Success: The legacy method worked, but you still need to upgrade 10.132.1.21.
- 2022-08-04 21:41:24: Success: Backup for 10.132.1.21 was moved to D:\RIND\AscomBackupRetriever\Backups\2022-08-04\AKADEM
+ 2022-08-04 21:41:22: Success: Device 10.1.1.2 is active with 0 ms in Latency
+ 2022-08-04 21:41:23: Error: Incompatibility issues, couldn't login on device 10.1.1.2
+ 2022-08-04 21:41:24: Success: The legacy method worked, but you still need to upgrade 10.1.1.2.
+ 2022-08-04 21:41:24: Success: Backup for 10.1.1.2 was moved to X:\AscomBackupRetriever\Backups\2022-08-04\CUSTOMER_A
 ~~~
 
 Failed backup log entry
 
 ~~~log
- 2022-08-04 21:41:27: Success: Device 172.16.195.10 is active with 1 ms in Latency
- 2022-08-04 21:41:28: Error: Incompatibility issues, couldn't login on device 172.16.195.10
- 2022-08-04 21:41:29: !ERROR!: Legacy Method failed, no backups will be taken for 172.16.195.10.
+ 2022-08-04 21:41:27: Success: Device 10.1.1.3 is active with 1 ms in Latency
+ 2022-08-04 21:41:28: Error: Incompatibility issues, couldn't login on device 10.1.1.3
+ 2022-08-04 21:41:29: !ERROR!: Legacy Method failed, no backups will be taken for 10.1.1.3.
 ~~~
 
 Scheduling
