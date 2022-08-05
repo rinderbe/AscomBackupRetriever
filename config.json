@@ -1,0 +1,15 @@
+{
+    "Paths": {
+      "basepath": "X:\\AscomBackupRetriever\\",
+      "backuppath": "X:\\AscomBackupRetriever\\Backups\\",
+      "libpath": "X:\\AscomBackupRetriever\\lib\\",
+      "infpath": "X:\\AscomBackupRetriever\\lib\\DocumentEncryption.inf",
+      "cerpath": "X:\\AscomBackupRetriever\\lib\\DocumentEncryption.cer",
+      "vaultcred": "X:\\AscomBackupRetriever\\lib\\vaultCred.key",
+      "devicelist": "X:\\AscomBackupRetriever\\DeviceList.csv",
+      "logpath": "X:\\AscomBackupRetriever\\Logs\\"
+    },
+    "Settings": {
+        "EnableDebug": "$false"
+    }
+  }
